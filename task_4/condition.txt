@@ -1,0 +1,26 @@
+> Exercise 1:
+Transpose a matrix
+example:
+Original matrix is:
+[0, 1, 9]
+[9, 8, 5]
+[7, 3, 1]
+[3, 4, 0]
+
+Transposed matrix is:
+[0, 9, 7, 3]
+[1, 8, 3, 4]
+[9, 5, 1, 0]
+
+> Exercise 2:
+Factorial ---> n! ---> 5! = 120
+
+> Exercise 3:
+Fibonacci sequence
+For a positive integer n calculate the result value, which is equal to the sum of the first n Fibonacci numbers
+
+> Exercise 4:
+Binary representation
+For a positive integer n calculate the result value, which is equal to the sum of the "1" in the binary representation of n
+example:
+22 ---> 10110 --> sum is 3
