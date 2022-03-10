@@ -10,8 +10,10 @@ def triangle_area(a, b, c):
     else:
         return -1
 
-a = float(input("a = "))
-b = float(input("b = "))
-c = float(input("c = "))
-
-print(f's = {triangle_area(a, b, c)}')
+try:
+    a = float(input("a = "))
+    b = float(input("b = "))
+    c = float(input("c = "))
+    print(f's = {triangle_area(a, b, c)}')
+except:
+    print("This is not a value!")
