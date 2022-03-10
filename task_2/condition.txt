@@ -1,0 +1,14 @@
+> Exercise 1:
+Return the count of negative numbers in next list [4, -9, 8, -11, 8].
+Do not use conditionals or loops.
+
+> Exercise 2:
+You have first 5 best tennis players according APT ranking.
+Set the first-place player to last place and vice versa.
+
+players = ['player1', 'player2', 'player3', 'player4', 'player5']
+
+> Exercise 3:
+Swap words "reasonable" and "unreasonable" in quote "The reasonable man
+adapts himself to the world; the unreasonable one persists in trying to
+adapt the world to himself". Do not use .replace() function or similar.
