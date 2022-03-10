@@ -1,4 +1,3 @@
-from genericpath import exists
 import math as m
 
 def triangle_area(a, b, c):
