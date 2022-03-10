@@ -1,0 +1,22 @@
+> Exercise 1:
+Write a program that determines whether the Point(x,y) is in the shaded area or not.
+
+> Exercise 2:
+Write a program that prints the input number from 1 to 100.
+But for multiple of three print "Fizz" instead of the number and for the multiples of
+five print "Buzz".
+For numbers which are multiples of both three and five print "FizzBuzz"
+
+> Exercise 3:
+- Simulate the one round of play for baccarat game
+- Rules:
+  - cards have a point value:
+    - the 2 through 9 cards in each suit
+      are worth face value (in points);
+    - the 10, jack, queen, and king have
+      no point value (i.e. are worth zero);
+    - aces are worth 1 point;
+  - Sum the values of cards. If total is 
+    more than 9 reduce 10 from result
+  - Player is not allowed to play another
+    cards like joker.
