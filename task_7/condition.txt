@@ -1,0 +1,16 @@
+information:
+
+              Class Method:                                        Static Method:     
+1) The class method takes cls (class) as first  | 1) The static method does not take any specific parameter.
+argument.                                       |
+2) Class method can access and modify the class | 2) Static Method cannot access or modify the class state.
+state.                                          |
+3) The class method takes the class as parameter| 3) Static methods do not know about class state.
+to know about the state of that class.          | These methods are used to do some utility tasks by
+                                                | taking some parameters.
+4) @classmethod decorator is used here.	        | 4) @staticmethod decorator is used here.
+
+Task:
+Create a class 'Car'. In this class you must define a constructor and a __str__() - method.
+After that create a classmethod that will convert a speed into kph to mph; and staticmethod
+that will define if speed is high
