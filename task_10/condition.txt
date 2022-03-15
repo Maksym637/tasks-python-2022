@@ -1,0 +1,49 @@
+> Exercise 1:
+Implement a function which receives a string and replaces all (") symbols with (')
+and vice versa.
+
+> Exercise 2:
+Write a function that check whether a string is a palindrome or not.
+
+> Exercise 3:
+Implement a function get_shortest_word(s: str) -> str which returns the shortest word
+in a given string. The word can contain any symbols except whitespaces ( , \n, \t and so on).
+If there are multiple shortest words in the string with a same length return the word that
+occurs first. Usage of any split functions is forbidden.
+
+Example:
+
+>>> get_shortest_word('Python is simple')
+'is'
+>>> get_shortest_word('What do you think about it?')
+'do'
+
+> Exercise 4:
+Implement a brunch of functions which receive a chargeable number of strings and return next
+parameters:
+ 1. characters that appear in all strings;
+ 2. characters that appear in at least one string;
+ 3. characters that appear at least in two strings;
+ 4. characters of alphabet, that were not used in any string.
+Note: use string.ascii_lowercase for list of alphabet letters.
+
+Example:
+
+test_strings = ["hello", "world", "python"]
+print(test_1_1(*test_strings))
+>>> {'o'}
+print(test_1_2(*test_strings))
+>>> {'d', 'e', 'n', 'p', 'y', 't', 'r', 'w'}
+print(test_1_3(*test_strings))
+>>> {'h', 'l', 'o'}
+print(test_1_4(*test_strings))
+>>> (characters of alphabet, that were not used in any string)
+
+> Exercise 5:
+Implement a function, that takes string as an argument and returns a dictionary, that
+contains letters of given string as keys and numbers of their occurrence as values.
+
+Example:
+
+print(count_letters("stringsample"))
+>>> {'s': 2, 't': 1, 'r': 1, 'i': 1, 'n': 1, 'g': 1, 'a': 1, 'm': 1, 'p': 1, 'l': 1, 'e': 1}
