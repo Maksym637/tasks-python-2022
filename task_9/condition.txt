@@ -13,7 +13,7 @@ To develop Rectangle class with following content:
 - Method IsSquare, checking whether current rectangle is shape square or not. Returns true if the shape is square and false in another case.
 - Method ReplaceSides, swapping rectangle sides
 
-On Advanced level aslo needed:
+On Advanced level also needed:
 Complete Level Low Assignment
 Develop class ArrayRectangles, in which declare:
 - Private field rectangle_array - array of rectangles
