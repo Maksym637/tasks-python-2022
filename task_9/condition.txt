@@ -19,7 +19,7 @@ Develop class ArrayRectangles, in which declare:
 - Private field rectangle_array - array of rectangles
 - Constructor creating an empty array of rectangles with length n
 - Constructor that receives an arbitrary amount of objects of type Rectangle or an array of objects of type Rectangle.
-- Method AddRectangle that adds a rectangleof type Rectangle ro the array on the nearest free place and returning true, or returning false,
+- Method AddRectangle that adds a rectangle of type Rectangle to the array on the nearest free place and returning true, or returning false,
   if there is no free space in the array
 - Method NumberMaxArea, that returns order number (index) of the rectangle with the maximum area value (numeration starts with zero)
 - Method NumberMinPerimeter, that returns order number (index) of the rectangle with the minimum perimeter value (numeration starts with zero)
