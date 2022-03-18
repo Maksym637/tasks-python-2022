@@ -33,7 +33,7 @@ test_strings = ["hello", "world", "python"]
 print(test_1_1(*test_strings))
 >>> {'o'}
 print(test_1_2(*test_strings))
->>> {'d', 'e', 'n', 'p', 'y', 't', 'r', 'w'}
+>>> {'d', 'e', 'n', 'p', 'r', 't', 'w', 'y'}
 print(test_1_3(*test_strings))
 >>> {'h', 'l', 'o'}
 print(test_1_4(*test_strings))
