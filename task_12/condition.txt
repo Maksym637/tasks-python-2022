@@ -1,0 +1,16 @@
+Create a Circle class defined by its radius (r) as an attribute of the instance class, 
+with the methods "Area", which returns the area of ​​the circle, as well as the method
+"Increase" with one parameter - how many times to increase, which increases radius in a 
+given number of times.
+
+Also create a descendant class Ring, with an additional instance attribute class - inner 
+radius (rin), inherited from the parent class radius will indicate the outer radius. 
+Redefine method "Area" as the difference between the area of ​​the outer circle minus the 
+area internal. Also exceed the "Increase" method to increase it also the inner radius.
+-----------------------------------------------------------------------------------------
+1) __init__
+2) Override -> __str__
+3) private = get + set
+4) property value for attribute
+5) static method
+6) Override -> + and -
